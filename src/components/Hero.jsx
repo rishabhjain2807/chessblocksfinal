@@ -7,17 +7,16 @@ import { chesspieces } from '../assets';
 const Hero = () => {
   return (
 
-    <section
-      className="relative flex sm:flex-row flex-col w-full h-screen mx-auto ">
 
-      <div>
-        <img
-          className="absolute top-20 left-0 z-0  w-screen"
-          src={chesspieces}
-          alt="chesspieces"
-        />
-      </div>
-    </section>
+    <div >
+      <img
+        className="relative flex sm:flex-row flex-col w-full mx-auto absolute top-10 left-0 z-0 w-screen"
+        src={chesspieces}
+        alt="chesspieces"
+
+      />
+    </div>
+
 
   );
 };
