@@ -16,7 +16,7 @@ const ServiceCard = ({ index, title, icon }) => {
           scale: 1,
           speed: 450,
         }}
-        className="bg-jetLight rounded-[20px] py-1 px-1 min-h-[400px] min-w-[400px] flex justify-evenly items-center flex-col">
+        className="bg-jetLight rounded-[20px] py-1 px-1 min-h-[200px] min-w-[200px] flex justify-evenly items-center flex-col">
         <img src={icon} alt={title} className="w-150 h-150 object-contain  rounded-[20px]" />
         <h3 className="text-taupe text-[18px] font-bold text-center">
           {title}
@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <div className="-mt-[6rem]">
+    <div className="-mt-[6rem]  ">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>About</h2>

@@ -10,7 +10,7 @@ const Projects = () => {
   const [active, setActive] = useState('project-2');
 
   return (
-    <div className="-mt-[6rem]">
+    <div className="-mt-[6 rem]">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>What is chessblocks?</p>
         <h2 className={`${styles.sectionHeadTextLight}`}>Symbolism</h2>
@@ -19,7 +19,7 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
-          className="mt-4 text-taupe text-[20px] max-w-10xl leading-[30px] ">
+          className=" mt-4 text-taupe text-[20px] max-w-10xl leading-[30px]    ">
           ChessBlocks include 4 major categories <br></br>
           <div className=''>
             <div>1. Chess Piece</div>
